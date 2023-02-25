@@ -1,0 +1,71 @@
+
+
+body{
+  background-color: black;
+  
+}
+.card {
+  position: relative;
+  border: 2px solid black;
+  height: 48rem;
+  width: 35rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  -webkit-box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 4px 0px 10px 31px rgba(255,244,241,0); 
+box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 4px 0px 10px 31px rgba(255,244,241,0);
+}
+
+img {
+  width: 35rem;
+  height: 20rem;
+}
+
+h1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.count1 {
+  margin-right: 10rem;
+}
+
+.count2 {
+  margin-left: 12rem;
+}
+
+.count3 {
+  margin-right: 4em;
+  margin-top: 4rem;
+}
+
+.count4 {
+  margin-right: 0.1em;
+  margin-top: 4rem;
+}
+.fixit{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+button{
+  width: 10rem;
+  height: 3rem;
+  background: none;
+}
+button:hover{
+  width: 10rem;
+  height: 3rem;
+  background-color: rgba(255, 0, 0, 0.474);
+  color:white;
+
+
+}
+.pos{
+  position: absolute;
+  left: 2%;
+  top: 0;
+}
